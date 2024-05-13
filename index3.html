@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="Calculator">
+                <h2>Grade Calculator</h2>
+                <form>
+                    <label>Enter Your Name</label>
+                    <input type="text" placeholder="Mahrukh Mahar" id="name">
+                    <br><br>
+                    <label>Enter Number Of Subjects</label>
+                    <input type="number" placeholder="e.g 1, 2, 3" id="noOfSubject">
+                    <div id="subjectInputs"></div>
+                </form>
+                <button onclick="generateMarksheet()" id="generateButton">Generate Marksheet</button>
+                <button onclick="downloadMarksheet()" id="downloadButton" style="display:none;">Download Marksheet</button>
+                <div id="marksheet"></div>
+            </div>
+        </div>
+        <div class="gradeScale">
+            <div class="img">
+                <h2>How To Use Grade Calculator</h2>
+                <div class="how">
+                    <ul>
+                        <li><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p></li>
+                        <li><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p></li>
+                        <li><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p></li>
+                    </ul>
+                </div>
+                <div class="gradediv">
+                    <table class="scale">
+                        <tr>
+                            <th>Grade</th>
+                            <th>Percentage</th>
+                        </tr>
+                        <tr>
+                            <td>A+</td>
+                            <td>>=80%</td>
+                        </tr>
+                        <tr>
+                            <td>A</td>
+                            <td>>=70%</td>
+                        </tr>
+                        <tr>
+                            <td>B</td>
+                            <td>>=60%</td>
+                        </tr>
+                        <tr>
+                            <td>C</td>
+                            <td>>=50%</td>
+                        </tr>
+                        <tr>
+                            <td>D</td>
+                            <td>>=40%</td>
+                        </tr>
+                        <tr>
+                            <td>F</td>
+                            <td>&lt;40%</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
