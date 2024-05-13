@@ -1,0 +1,100 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    gap: 20px; /* Adjust this value to add space between the columns */
+}
+
+
+.img{
+    background-image: url("img.jpg");
+    height: 100%;
+    opacity: 89%;
+}
+
+.gradeScale {
+    color: white;
+}
+.gradeScale h2 {
+    padding: 20px;
+    text-align: center;
+
+}
+.Calculator{
+    padding: 20px;
+    color: #2569bc;
+}
+
+form{
+    padding-left:100px;
+    padding-top: 50px;
+}
+
+.subjectsInput{
+    margin:10px;
+
+}
+
+#generateButton ,#downloadButton{
+    margin-top: 50px;
+    margin-left: 200px;
+    padding: 10px;
+    color: white;
+    background-color: #2569bc;
+    border: none;
+    border-radius: 20px;
+}
+
+#marksheet{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#marksheet table th,
+#marksheet table td {
+    border:1px solid #2569bc;
+    padding: 30px;
+    margin: 50px;
+}
+
+.how{
+    padding-left: 40px;
+}
+ul li{
+    margin: 20px;
+    font-size: 12px;
+}
+
+
+.scale th{
+    
+    background-color:  white;
+    color: #2569bc;
+    padding: 20px;
+    margin: 15px;
+   
+   
+}
+
+.scale td{
+    background-color:  #2569bc;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+}
+
+.scale tr td{
+    width:150px;
+}
+
+.gradediv{
+    padding-left:100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
